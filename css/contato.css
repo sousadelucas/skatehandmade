@@ -1,87 +1,16 @@
-.interna-produtos {
+.interna-contato {
     background: url("./img/back-produtos.png") no-repeat center;
     background-size: cover;
 }
 
-.span {
-    font-weight: bold;
-    color: #494A4A;
+.interna-contato p {
+    color: #494A4A
 }
 
-.produto_item {
-    padding-top: 60px;
-}
 
-.produto_item h2 {
-    font-size: 36px;
-    text-transform: uppercase;
-    color: #689696;
-    letter-spacing: .1em;
-    font-weight: bold;
-    position: relative;
-    top: -180px;
-    text-align: center;
-    margin-bottom: -36px;
-}
-
-.produto_item h2:after, .produto_item h2::before {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: #689696;
-    margin: 2px auto;
-}
-
-.produto_icone {
-    background: #494A4A;
-    padding: 66px 0;
-}
-
-.produto_icone img {
-    margin: 0 auto;
-}
-
-.produto_info  {
-    background: #494A4A
-}
-
-.produto_info p {
-    color: #689696;
-    font-size: 18px;
-    line-height: 25px;
-    height: 178px;
-    padding: 30px 40px;
-}
-
-.produto_info ul li {
-    background: #689696;
-    float: left;
-    width: 228px;
-    height: 50px;
-    padding: 15px 0;
-
-    text-transform: uppercase;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    font-weight: bold;
-    color: #494A4A;
-}
-
-.produto_info ul li:nth-child(1), .produto_info ul li:nth-child(2)  {
-    margin-bottom: 2px;
-}
-
-.produto_info ul li:nth-child(even) {
-    margin-left: 2px;
-}
-
-/* Formulário de Orçamento */
 .orcamento {
     background: #494A4A;
     width: 100%;
-    margin-top: 40px;
     padding: 40px 0;
 }
 
