@@ -1,0 +1,126 @@
+/* tablet */
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+    .qualidade:after {
+        content: "";
+        background: none;
+    }
+
+    .footer_redes ul li a {
+        display: block;
+        padding: 6px;
+    }
+
+    .footer_redes ul li a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .produto_item h2 {
+        top: -160px;
+        margin-bottom: -51px;
+    }
+
+    .produto_icone {
+        padding: 37px 0;
+    }
+
+    .produto_info p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 30px;
+        height: 120px;
+    }
+
+    .produto_info ul li {
+        width: 181px;
+    }
+
+}
+
+/* celular */
+
+@media only screen and (max-width: 787px) {
+
+    .header {
+        position: relative;
+        padding-bottom: 0px;
+    }
+
+    .header img{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .header_menu {
+        text-align: center;
+    }
+
+    .header_menu ul li {
+        margin: 0;
+    }
+
+    .header_menu ul li a {
+        border: 2px solid #494A4A;
+        width: 140px;
+        display: block;
+        float: left;
+     }
+
+     .introducao {
+         padding-top: 30px;
+         margin-top: 0px;
+         text-align: center;
+     }
+
+     .introducao-interna {
+         margin-top: 0px;
+     }
+
+     .qualidade:after {
+        content: "";
+        background: none;
+    }
+
+    .call {
+        padding: 10px
+    }
+
+    .missao_sobre p {
+        padding-right: 0px;
+        font-size: 14px
+    }
+
+    .missao_sobre ul li {
+        font-size: 14px;
+    }
+
+    .produto_item h2 {
+        top: -110px;
+        margin-bottom: -71px;
+        font-size: 32px;
+    }
+
+    .produto_icone {
+        padding: 37px 0;
+    }
+
+    .produto_info p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 30px;
+        height: auto;
+    }
+
+    .produto_info ul li {
+        width: 149px;
+        font-size: 16px;
+        padding-top: 14px;
+    }
+
+    .formulario {
+        padding-right: 0px;
+    }
+    
+}
